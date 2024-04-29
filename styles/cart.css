@@ -1,0 +1,41 @@
+/* Cart styles */
+.shopping .card {
+    margin-bottom: 20px;
+}
+
+.shopping .card-body {
+    padding: 20px;
+}
+
+.shopping .table-responsive {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.shopping table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.shopping th,
+.shopping td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.shopping .subtotal {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.shopping .btn-checkout {
+    background-color: #ff7b00; /* Forever 21 orange */
+    border-color: #ff7b00; /* Forever 21 orange */
+    color: #fff;
+}
+
+.shopping .btn-checkout:hover {
+    background-color: #ff6a00; /* Slightly darker shade */
+    border-color: #ff6a00; /* Slightly darker shade */
+}

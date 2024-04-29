@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: #dfe9f5;
+}
+
+.container{
+  display: flex;
+}
+
+nav{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 200vh;
+  left: 0;
+  background: #fff;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+
+.logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li{
+  margin: 10px 0;
+}
+
+nav ul li a{
+  display: flex;
+  align-items: center;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  padding: 10px;
+}
+
+nav ul li a:hover{
+  background: #eee;
+}
+
+.nav-item{
+  margin-left: 10px;
+}
+
+.logout{
+  position: absolute;
+  bottom: 0;
+}
+
+.content{
+  padding: 100px;
+  border: 10px;
+}
+
+.card{
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card-body{
+
+  margin: 250px;
+}
+
+.card-title{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button{
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #0056b3;
+}
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td{
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.table th{
+  background: #f2f2f2;
+  font-weight: bold;
+}
